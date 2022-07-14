@@ -1,0 +1,86 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {    
+    background-image: url(revenu.jpeg) ;
+    
+}
+
+.descricao {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+
+    padding: 45px 0 0 45px;
+    width: 50%;
+}
+.descricao2 {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+    padding: 45px 0 0 45px;
+    width: 50%;
+    font-family: sora,Sans-serif;
+    font-size: 21px;
+
+}
+
+.imgmilhas {
+    width: 33%;
+}
+
+.data {
+    color: white;
+    font-size: 18px;
+    font-family: sora ,Sans-serif;
+    font-weight: bold;
+
+}
+
+form {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+    padding: 45px 0 0 90px;
+    width: 39%;
+    font-family: MontSerrat,Sans-serif;
+    font-weight: bold;
+
+}
+
+input {
+    height: 42px;
+    border-radius: 5px;
+}
+
+button {
+    color: #fff;
+    background-color: #1bde25;
+    font-family: sora ,Sans-serif;
+    border-radius: 5px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px !important;
+    border-radius: 5px !important;
+    border: 0 !important;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: black; 
+    font-size: 20px;
+    font-family: "Montserrat", "Sans serif";
+    padding: 50px;
+}
+
